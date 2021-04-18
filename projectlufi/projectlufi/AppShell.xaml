@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell       xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectlufi.AppShell"
+             Shell.ForegroundColor="Black"
+             BackgroundColor="White"
+             FlyoutBehavior="Flyout"
+             Shell.TitleColor="Black" 
+             > 
+   
+
+
+    <ContentPage >
+        
+        <Shell.TitleView >
+            <Image Source="lufian1.jpg"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+                
+             Margin="0,0,16,0"
+                   />
+        </Shell.TitleView>
+        <ContentPage.ToolbarItems>
+            <ToolbarItem  Name="MenuItem1" Order="Primary" Icon="usericon.png" 
+                      Text="Item 1" Priority="0" Clicked="Handle_Click" />
+            <ToolbarItem Name="MenuItem2" Order="Primary" Icon="sepeticon.png" 
+                     Text="Item 2" Priority="1" Clicked="Handle_Click1"/>
+        </ContentPage.ToolbarItems>
+        
+    </ContentPage>
+
+
+
+
+
+    <FlyoutItem Title="Dış Giyim"  FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Dış Giyim">
+            <ContentPage>
+                <ScrollView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="0">
+                            <ImageButton Source="https://cdn.lufian.com/inka-kazak-acik-gri-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216596-39-K.jpg"
+                                         Clicked="Handle_Click2"
+                                         />
+                            <Label Text="Gain Mont Lacivert" TextColor="Black"/>
+                            <Label Text="559,99 TL" TextColor="Black"/>
+                            <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/anar-kazak-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216623-40-K.jpg"/>
+                            <Label Text="Harry Mont Siyah" TextColor="Black"/>
+                            <Label Text="519,99 TL" TextColor="Black"/>
+                            <Label Text="1299,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/gusto-kazak-ekru-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216546-40-K.jpg"/>
+                            <Label Text="Ikarus Mont Siyah" TextColor="Black"/>
+                            <Label Text="599,99 TL" TextColor="Black"/>
+                            <Label Text="559,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/palma-kazak-acik-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216561-40-K.jpg"/>
+                            <Label Text="Albert Mont Siyah" TextColor="Black"/>
+                            <Label Text="599,99 TL" TextColor="Black"/>
+                            <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="2"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/fros-kazak-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-220304-37-K.jpg"/>
+                            <Label Text="Fames Mont Tas" TextColor="Black"/>
+                            <Label Text="559,99 TL" TextColor="Black"/>
+                            <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+
+                    </Grid>
+                </ScrollView>
+            </ContentPage>
+
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Üst Giyim"  FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Üst Giyim">
+            <ContentPage>
+                <ScrollView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="0">
+                            <ImageButton Source="https://cdn.lufian.com/inka-kazak-acik-gri-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216596-39-K.jpg"
+                                         Clicked="Handle_Click2"
+                                         />
+                            <Label Text="İnka Kazak Açık Gri" TextColor="Black"/>
+                            <Label Text="179,99 TL" TextColor="Black"/>
+                            <Label Text="359,99 TL" TextDecorations="Strikethrough"/>
+
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/anar-kazak-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216623-40-K.jpg"/>
+                            <Label Text="Anar Kazak Siyah" TextColor="Black"/>
+                            <Label Text="199,99 TL" TextColor="Black"/>
+                            <Label Text="399,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/gusto-kazak-ekru-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216546-40-K.jpg"/>
+                            <Label Text="Gusto Kazak Ekru" TextColor="Black"/>
+                            <Label Text="199,99 TL" TextColor="Black"/>
+                            <Label Text="359,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/palma-kazak-acik-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-216561-40-K.jpg"/>
+                            <Label Text="Palma Kazak Acik Lacivert" TextColor="Black"/>
+                            <Label Text="174,99 TL" TextColor="Black"/>
+                            <Label Text="349,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="2"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/fros-kazak-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-kazak-lufian-220304-37-K.jpg"/>
+                            <Label Text="Fros Kazak Lacivert" TextColor="Black"/>
+                            <Label Text="135,99 TL" TextColor="Black"/>
+                            <Label Text="449,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+
+                    </Grid>
+                </ScrollView>
+            </ContentPage>
+
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="Alt Giyim"   FlyoutDisplayOptions="AsMultipleItems">
+        
+            <ShellContent Title="Alt Giyim">
+            <ContentPage>
+                <ScrollView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="0">
+                            <ImageButton Source="https://cdn.lufian.com/uno-esofman-alti-gri-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-esofman-lufian-216258-40-K.jpg"
+                                         Clicked="Handle_Click2"
+                                         />
+                            <Label Text="Uno Esofman Alti Gri" TextColor="Black"/>
+
+                            <Label Text="224,99 TL" TextColor="Black"/>
+                            <Label Text="449,99 TL" TextDecorations="Strikethrough"/>
+
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="0"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/sweet-deniz-sortu-mavi-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-deniz-sortu-lufian-217798-66-K.jpg"/>
+                            <Label Text="Sweet Deniz Sortu Mavi" TextColor="Black"/>
+                            <Label Text="92,99 TL" TextColor="Black"/>
+                            <Label Text="229,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/lotus-deniz-sortu-yesil-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-deniz-sortu-lufian-217809-66-K.jpg"/>
+                            <Label Text="Lotus Deniz Sortu Yesil" TextColor="Black"/>
+                            <Label Text="80,00 TL" TextColor="Black"/>
+                            <Label Text="199,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+                        <StackLayout Padding="10,10"
+                         Grid.Row="1"
+                         Grid.Column="1">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/mate-spor-chino-pantolon-slim-fit-gri-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-chino-pantolon-lufian-217453-39-K.jpg"/>
+                            <Label Text="Mate Spor Chino Pntolon Slim Fit Gri" TextColor="Black"/>
+                            <Label Text="287,99 TL" TextColor="Black"/>
+                            <Label Text="574,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout>
+                        <StackLayout Padding="10,10"
+                         Grid.Row="2"
+                         Grid.Column="0">
+                            <ImageButton 
+                                Clicked="Handle_Click2"
+                                Source="https://cdn.lufian.com/lennar-esofman-alti-yesil-esofman-lufian-216243-41-K.jpg"/>
+                            <Label Text="Lennar Esofman Alti Yesil" TextColor="Black"/>
+                            <Label Text="199,99 TL" TextColor="Black"/>
+                            <Label Text="399,99 TL" TextDecorations="Strikethrough"/>
+                        </StackLayout >
+
+                    </Grid>
+                </ScrollView>
+            </ContentPage>
+
+        </ShellContent>
+        
+       
+    </FlyoutItem>
+</Shell>

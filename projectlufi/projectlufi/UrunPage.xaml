@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Padding="10,20" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectlufi.UrunPage">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Padding="10,15"
+                         Grid.Row="0"
+                         Grid.Column="0">
+                <Image Source="https://cdn.lufian.com/gain-mont-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-216885-40-B.jpg"
+                       />
+                <Label Text="Gain Mont Lacivert" TextColor="Black"/>
+                
+                <Label Text="559,99 TL" TextColor="Black"/>
+                <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                
+            </StackLayout>
+            <StackLayout Padding="10,15"
+                         Grid.Row="0"
+                         Grid.Column="1">
+                <Image Source="https://cdn.lufian.com/harry-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206312-39-K.jpg"/>
+                <Label Text="Harry Mont Siyah" TextColor="Black"/>
+                <Label Text="519,99 TL" TextColor="Black"/>
+                <Label Text="1299,99 TL" TextDecorations="Strikethrough"/>
+            </StackLayout>
+            <StackLayout Padding="10,0"
+                         Grid.Row="1"
+                         Grid.Column="0">
+                <Image Source="https://cdn.lufian.com/ikarus-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206351-39-K.jpg"/>
+                <Label Text="Ikarus Mont Siyah" TextColor="Black"/>
+                <Label Text="599,99 TL" TextColor="Black"/>
+                <Label Text="559,99 TL" TextDecorations="Strikethrough"/>
+            </StackLayout >
+            <StackLayout Padding="10,0"
+                         Grid.Row="1"
+                         Grid.Column="1">
+                <Image Source="https://cdn.lufian.com/albert-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206387-39-K.jpg"/>
+                <Label Text="Albert Mont Siyah" TextColor="Black"/>
+                <Label Text="599,99 TL" TextColor="Black"/>
+                <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+            </StackLayout>
+            <StackLayout Padding="10,0"
+                         Grid.Row="2"
+                         Grid.Column="0">
+                <Image Source="https://cdn.lufian.com/fames-mont-tas-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206382-39-K.jpg"/>
+                <Label Text="Fames Mont Tas" TextColor="Black"/>
+                <Label Text="559,99 TL" TextColor="Black"/>
+                <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+            </StackLayout >
+
+        </Grid>
+        <!--<StackLayout Padding="10,10,10,0">
+        <Label Text="Dis Giyim"
+               FontSize="Large"
+               HorizontalOptions="Center"/>
+
+        <StackLayout >
+            <StackLayout Orientation="Horizontal" >
+                
+                <StackLayout Padding="5,5,5,5">
+                    <Image Source="https://cdn.lufian.com/gain-mont-lacivert-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206364-40-K.jpg"/>
+                    <Label Text="Gain Mont Lacivert" TextColor="Black"/>
+                    <Label Text="559,99 TL" TextColor="Black"/>
+                    <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                </StackLayout >
+                <StackLayout Padding="5,5,5,5">
+                    <Image Source="https://cdn.lufian.com/harry-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206312-39-K.jpg"/>
+                    <Label Text="Harry Mont Siyah" TextColor="Black"/>
+                    <Label Text="519,99 TL" TextColor="Black"/>
+                    <Label Text="1299,99 TL" TextDecorations="Strikethrough"/>
+                </StackLayout>
+                
+                </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+
+                <StackLayout Padding="5,5,5,5">
+                    <Image Source="https://cdn.lufian.com/ikarus-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206351-39-K.jpg"/>
+                    <Label Text="Ikarus Mont Siyah" TextColor="Black"/>
+                    <Label Text="599,99 TL" TextColor="Black"/>
+                    <Label Text="559,99 TL" TextDecorations="Strikethrough"/>
+                </StackLayout >
+                <StackLayout Padding="5,5,5,5">
+                    <Image Source="https://cdn.lufian.com/albert-mont-siyah-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206387-39-K.jpg"/>
+                    <Label Text="Albert Mont Siyah" TextColor="Black"/>
+                    <Label Text="599,99 TL" TextColor="Black"/>
+                    <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+
+                <StackLayout Padding="5,5,5,5">
+                    <Image Source="https://cdn.lufian.com/fames-mont-tas-modelini-incelemek-icin-hemen-tiklayin-erkek-giyim-modasinin-devi-lufianin-yeni-sezon-koleksiyonunu-kesfedin-mont-lufian-206382-39-K.jpg"/>
+                    <Label Text="Fames Mont Tas" TextColor="Black"/>
+                    <Label Text="559,99 TL" TextColor="Black"/>
+                    <Label Text="1399,99 TL" TextDecorations="Strikethrough"/>
+                </StackLayout >
+                
+            </StackLayout>
+
+        </StackLayout>
+
+
+
+
+
+    </StackLayout>-->
+    </ScrollView>
+</ContentPage>

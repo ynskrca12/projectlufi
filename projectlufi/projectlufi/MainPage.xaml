@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectlufi.MainPage">
+
+    <ContentPage.ToolbarItems >
+
+        <ToolbarItem  Name="MenuItem1" Order="Primary" Icon="usericon.png"
+                      Text="Item 1" Priority="0"  />
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="sepeticon.png" 
+                     Text="Item 2" Priority="1" />
+    </ContentPage.ToolbarItems>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label 
+            Text="{Binding 
+            Source={x:Reference slider},
+            Path=Value,
+            StringFormat='Value is {0:F2}'}" 
+            x:Name="label" 
+            TextColor="Black"/>
+        
+        <Slider x:Name="slider"/>
+        <Button Text="Next Page" />
+
+    </StackLayout>
+
+</ContentPage>
